@@ -1,0 +1,175 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  background: #fff;
+  padding: 20px;
+  max-width: 400px;
+  margin: auto;
+}
+.Dollar {
+  display: grid;
+}
+h2 {
+  text-align: center;
+  color: #007c6d;
+}
+.DisU {
+  display: flex;
+  gap: 8px;
+}
+.BtnOFF {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.bundle-option {
+  border: 2px solid #ccc;
+  padding: 15px;
+  margin: 10px 0;
+}
+
+/* .bundle-option.active {
+    border-color: #007c6d;
+    background-color: #f0fdfc;
+  } */
+  .labels {
+    display: flex;
+    gap: 88px;
+    font-size: 13px;
+    margin-bottom: 21px;
+    padding-left: 32px;
+}
+.hashNum {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    justify-content: start;
+    margin-top: 10px;
+}
+span.hash1 {
+    font-size: 15px;
+    margin-right: 12px;
+}
+span.hash2 {
+    font-size: 15px;
+    margin-right: 9px;
+}
+.bundle-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+span.textBold {
+  font-size: 18px;
+  font-weight: 500;
+}
+span.TextUnder {
+  text-decoration: line-through;
+  color: #808080a6;
+  font-size: 15px;
+}
+span.unit {
+  font-size: 17px;
+  font-weight: 700;
+}
+.discount {
+  background: orange;
+  padding: 0px 6px;
+  font-weight: 400;
+  color: white;
+  border-radius: 3px;
+}
+.select-group {
+  /* margin-top: 10px; */
+  display: flex;
+  gap: 10px;
+}
+div#select11 {
+  padding: 15px 32px;
+}
+div#select12 {
+  padding: 15px 32px;
+}
+div#select13 {
+  padding: 15px 32px;
+}
+.Standard {
+  padding-left: 27px;
+  font-weight: 400;
+}
+.selectTags {
+    margin-top: -9px;
+}
+
+select {
+  padding: 5px;
+  width: 100px;
+  height: 30px;
+  border-radius: 4px;
+}
+.tag {
+  background: #e6fff9;
+  color: #007c6d;
+  font-size: 0.8em;
+  padding: 2px 6px;
+  border-radius: 5px;
+}
+span.hash {
+    font-size: 13px;
+}
+.st {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+div#background2 {
+    position: relative;
+}span.labeltop {
+    position: absolute;
+    top: -8px;
+    right: 9px;
+    background: #6a00ff;
+    color: white;
+    padding: 0px 10px;
+    font-size: 12px;
+    border-radius: 2px;
+    font-weight: 400;
+}
+.total {
+    text-align: right;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #000000;
+}
+.shipping {
+  color: #007c6d;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.btn {
+  width: 100%;
+  padding: 15px;
+  background-color: #007c6d;
+  color: white;
+  border: none;
+  font-size: 1em;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background-color: #3ba125;
+}
+#select11 {
+  display: none;
+}
+#select12 {
+  display: none;
+}
+#select13 {
+  display: none;
+}
